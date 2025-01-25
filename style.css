@@ -314,9 +314,9 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
-    margin: 0 auto; /* Membuat container terpusat */
-  max-width: 1200px; /* Lebar maksimal container */
-  padding: 0 40px; /* Memberikan jarak di sisi kiri dan kanan */
+    margin: 0 auto; 
+    max-width: 1200px; 
+    padding: 0 40px; 
 }
     
 .recipe {
@@ -373,15 +373,15 @@ nav ul li a:hover {
   }
   
   .left-arrow {
-    left: 10px; /* Posisi panah kiri */
+    left: 10px; 
   }
   
   .right-arrow {
-    right: 10px; /* Posisi panah kanan */
+    right: 10px; 
   }
   
   .arrow:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Efek hover */
+    background-color: rgba(0, 0, 0, 0.8); 
   }
   
 
