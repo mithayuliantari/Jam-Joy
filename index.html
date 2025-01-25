@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -17,14 +18,14 @@
         <p>Jam & Joy</p>
         </div>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#sec-home">Home</a></li>
+            <li><a href="#sec-product">Product</a></li>
+            <li><a href="#sec-about">About Us</a></li>
+            <li><a href="#sec-review">Review</a></li>
         </ul>
     </nav>
     
-    <div class="hero">
+    <div id="sec-home" class="hero">
         <div>
             <h1>Savor the Sweetness of Nature in Every Spoonful</h1>
             <p>Made from the finest fresh fruits, our jams bring you rich flavors and the perfect texture. Each variety is carefully crafted to offer an unforgettable taste experience. </p>
@@ -42,7 +43,7 @@
         </div>
     </div>
     
-    <div class="products">
+    <div id="sec-product" class="products">
         <div class="product">
             <img src="asset-jam/pineapple jam.png" alt="Pineapple Jam">
             <h3>Pineapple Jam</h3>
@@ -70,7 +71,7 @@
         </div>
     </div>
     
-    <div class="made-with-love">
+    <div id="sec-about" class="made-with-love">
         <h2>Made With Love</h2>
         <div class="features">
             <div class="feature">
@@ -128,7 +129,7 @@
         <h2>Recipes</h2>
         <p>Explore delightful recipes made with our delicious jams!</p>
         <div class="arrows">
-            <span class="arrow">&#8249;</span>
+            <button class="arrow left-arrow">&#8249;</button>
             <div class="recipe-container">
                 <div class="recipe">
                     <img src="asset-jam/Japanese Pancake.jpeg" alt="Japanese Pancakes">
@@ -155,11 +156,11 @@
                     <p>320g/305kcal</p>
                 </div>
             </div>
-            <span class="arrow">&#8250;</span>
+            <button class="arrow right-arrow">&#8250;</button>
         </div>
     </div>
 
-    <div class="reviews">
+    <div id="sec-review" class="reviews">
         <h2>What Our Customers Say</h2>
         <div class="revieww">
             <div class="review-card">

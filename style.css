@@ -8,15 +8,17 @@ nav {
     justify-content: space-between;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 100%;
+    position: fixed;
     
 }
 nav img {
     height: 80px;
+    margin-left: 60px;
 }
 
 .logo{
+    font-family: 'Dancing+Script', cursive;
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -35,6 +37,7 @@ nav ul {
     display: flex;
     margin: 0;
     padding: 0;
+    margin-right: 100px
 }
 
 nav ul li {
@@ -308,17 +311,21 @@ nav ul li a:hover {
 }
 .recipe-container {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto; /* Membuat container terpusat */
+  max-width: 1200px; /* Lebar maksimal container */
+  padding: 0 40px; /* Memberikan jarak di sisi kiri dan kanan */
 }
+    
 .recipe {
     text-align: center;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 250px;
     padding: 20px;
 }
 .recipe img {
@@ -344,18 +351,39 @@ nav ul li a:hover {
 }
 .arrows {
     display: flex;
-    justify-content: center ;
     align-items: center;
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
+    position: relative;
+    overflow: hidden;
+    margin: 0px 40px;
 }
 .arrow {
-    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0px 30px;
+    font-size: 24px;
     cursor: pointer;
-    color: #333;
-}
-
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .left-arrow {
+    left: 10px; /* Posisi panah kiri */
+  }
+  
+  .right-arrow {
+    right: 10px; /* Posisi panah kanan */
+  }
+  
+  .arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Efek hover */
+  }
+  
 
 .reviews {
     text-align: center;
